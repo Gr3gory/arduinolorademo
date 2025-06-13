@@ -1,4 +1,4 @@
-//Required MKR WAN 1310 driver in order to work
+//Required MKR WAN 1310 drivers installed in order to compile and flash
 
 #include <SPI.h>
 
@@ -10,7 +10,6 @@ const int trigPin = 4;
 const int echoPin = 5;
 
 /*
- * This code is in the public domain
  * Anyone can use this code to learn and develope 
  * with Arduino MKR WAN 1310 and LoRa
  * 
@@ -52,7 +51,7 @@ void send_distance(float distance) {
     LoRa.endPacket();
 }
 
-/* Arduino loop() */
+/* Send a new value every 50ms */
 void loop() {
     float distance = get_distance();
 
