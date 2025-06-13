@@ -1,4 +1,4 @@
-# arduinolorademo
+# Arduino LoRa Demo
 An educational demo for work with LoRa and Arduino.
 This project sends data across LoRa beetween two Arduino MKR WAN 1310.
 The transmitter collects data from a distance sensor and sends them to a
