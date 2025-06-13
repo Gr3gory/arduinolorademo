@@ -9,6 +9,6 @@ Clone this repo \
 Prepare the two Arduino MKR WAN 1310 with antennae \
 Install the drivers \
 Add the arduino-LoRa library .zip file to the IDE \
-Flash one arduino at a time or use two separate PCs \
+Flash one arduino at a time or use two separate PCs 
 
 
