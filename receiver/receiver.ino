@@ -11,7 +11,7 @@ const int GREEN_LED_PIN = 5;
 
 /*
  * This code is in the public domain
- * Anyone can use this code to learn and develope 
+ * Anyone can use this code to learn and develop
  * with Arduino MKR WAN 1310 and LoRa
  * 
  * This project handles communication of data 
