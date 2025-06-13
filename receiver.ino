@@ -21,6 +21,8 @@ const int GREEN_LED_PIN = 5;
 
 /* configuring pins, Serial Monitor and LoRa */ 
 void setup() {
+	
+  /* Comment this two lines below in order to work without a PC and Serial Monitor connected*/
   Serial.begin(9600);
   while (!Serial); //getting stuck here if Serial is not initialized
 
@@ -33,9 +35,9 @@ void setup() {
   
 
   if (!LoRa.begin(868E6)) {
-		Serial.println("Starting LoRa failed!");
-	while (1);
-	}
+	Serial.println("Starting LoRa failed!");
+	for {;;};
+  }
 
 }
 
